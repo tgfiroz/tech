@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classplus</title>
+    <link rel="icon" href="https://diy-assets.classplus.co/_next/image?url=https://storage.googleapis.com/coursewebview/logo.png&w=1920&q=75" />
+    <link rel="styleSheet" href="style.css">
+    <!-- <link rel="styleSheet" href="landing.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl navbar-dark border-bottom navbar_warp fixed-top">
+        <a href="#" class="navbar-brand ">
+            <img class="img-fluid animate__animated animate__repeat-3 animate__bounce" src="https://diy-assets.classplus.co/_next/image?url=https://storage.googleapis.com/coursewebview/logo.png&w=1920&q=75">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+            <i class="fa-solid fa-bars text-dark" style="font-size: 22px;"></i>
+        </button>
+        <div class="collapse navbar-collapse navbar_ul_warp justify-content-end" id="myNavbar">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a href="index.html" class="" style="color:#fff; background-color: #5a5353;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="content.html" class="">Free Content</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Testimonials.html" class="">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contect.html" class="">Contact Us</a>
+                </li>
+            </ul>
+            <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#myNewModal">Login</button>
+            <button type="button" class="btn btn-danger " data-toggle="modal" data-target="#myNewModal">Signup now</button>
+        </div>
+    </nav>
+<div class="container-fluid" >
+    <div class="pt-3 mt-5">
+        <div class="">
+            <div class="row body_row_warp pt-lg-5 p-lg-5">
+                <!-- <div class="col-md-2"></div> -->
+                <div class="col-md-7 pt-5 pt-lg-5 ">
+                    <h4 class="text-primary">BECOME A CERTIFIED GENIUS</h4>
+                    <h1 class="mt-2"><span class="text-primary ">T</span>raining by <span class="text-primary">W</span>orld-<span class="text-primary ">C</span>lass <span class="change_text text-danger"></span> <span class="text-primary ">P</span>rofessionals</h1>
+                    <h5 class="mt-3 text-primary">Courses with 100% Job Placement Post-Course Completio</h5>
+                    <div class="row">
+                        <div class="col-md-4 mb-2">
+                            <button type="button" class="mt-4  pl-4 pr-4 btn btn-primary text-white font-weight-bold">Book Demo Class</button>
+                        </div>
+                        <div class="col-md-4 ml-lg-n4">
+                            <button type="button" class="mt-lg-4  pl-4 pr-4 btn btn-danger text-white font-weight-bold">Free Trail, LOgin Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 pt-5">
+                    <div id="myCarousel" class=" carousel slide" data-ride="carousel" data-interval="3000">
+                        <!-- change carousel image code  -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+                        </ul>
+                        <!-- carousel image code  -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" >
+                                <img src="https://media.istockphoto.com/id/1025675228/photo/preparation-for-exam-stock-image.jpg?s=612x612&w=0&k=20&c=To0cWhcJjyAuvkUJ1n9PfJqxb-_a-wYs0g_hTgW4VmA=" class="img-fluid">
+                            </div>
+                            <div class="carousel-item" >
+                                <img src="https://www.oxfordlearning.com/wp-content/uploads/2009/05/tips-for-easier-studying-860x420.jpg" class="img-fluid">
+                            </div>
+                            <div class="carousel-item" >
+                                <img src="https://e1.pxfuel.com/desktop-wallpaper/201/793/desktop-wallpaper-bambi-w-on-aesthetic%E2%9C%A8-autumn-study-aesthetic-thumbnail.jpg" class="img-fluid">
+                            </div>
+                            <div class="carousel-item" >
+                                <img src="https://www.avanse.com/blogs/images/Planning-to-study-abroad.jpg" class="img-fluid">
+                            </div>
+                            <!-- carousel left and ride image changer  code  -->
+                            <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a  class="carousel-control-next " data-slide="next" href="#myCarousel">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <h1 class="font-weight-bold">
+            MY self
+        </h1>
+        <h2 class="font-weight-bold text-danger">
+            MY NAME IS INSHA FATIMA <BR> MY FATHER NAME IS RIYAZ AHMAD <BR> MY MOTHER NAME IS TARANNUM BANO 
+        </h2>
+        m name is firoz ahmad my nme is insha my fther name is riyjal  
+        <h1 class="font-weight-bold">
+            MY STUDY
+        </h1>
+        <h2 class="font-weight-bold text-danger">
+            I STUDY IN CLASS 2ND <BR> MY SCHOOL NAME IS  W.H PUBLIC SCHOOL <BR> I LIVED  IN MUSAFIRKHANA 
+        </h2>
+    </div> -->
+    <div class="container mt-4">
+        <div class="row course_row_warp pt-4 pb-4">
+            <div class="col-md-3 course_col_warp ">
+                <ul class="nav nav-pills flex-column ">
+                    <li class="nav-item " >
+                        <a href="#IIT" class="nav-link active" data-toggle="pill">IIT JEE <i class="fa-solid fa-chevron-right float-right mt-1"></i></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#NEET" class="nav-link" data-toggle="pill">NEET <i class="fa-solid fa-chevron-right float-right mt-1"></i></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#STATE" class="nav-link" data-toggle="pill">STATE PCS <i class="fa-solid fa-chevron-right float-right mt-1"></i></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#IAS" class="nav-link" data-toggle="pill">PW IAS <i class="fa-solid fa-chevron-right float-right mt-1"></i></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#UPSC" class="nav-link" data-toggle="pill">UPSC <i class="fa-solid fa-chevron-right float-right mt-1"></i></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#GATE" class="nav-link" data-toggle="pill">ESE + GATE <i class="fa-solid fa-chevron-right float-right mt-1"></i></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#MBA" class="nav-link" data-toggle="pill">MBA <i class="fa-solid fa-chevron-right float-right mt-1"></i></a>
+                    </li>
+                   
+                   
+                </ul>
+               
+            </div>
+            <div class="col-md-9  mt-n2" >
+                <div class="tab-content">
+                    <div class="container tab-pane  active" id="IIT">
+                        <div class="row course_detail_row_warp mt-4">
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="media p-2">
+                                        <div class="media-body ">
+                                            <h6 class="">Class 11th</h6>
+                                            <p class="mt-n2"> Batches</p>
+                                            <h5 class="mt-5 " onclick="alert('Please wwwwwwwwait')"> Explore</h5>
+                                        </div>
+                                        <img src="sir.jpg" class="img-fluid ">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="media p-2">
+                                        <div class="media-body ">
+                                            <h6 class="">Class 12th</h6>
+                                            <p class="mt-n2"> Batches</p>
+                                            <h5 class="mt-5 " onclick="alert('Please wwwwwwwwait')"> Explore</h5>
+                                        </div>
+                                        <img src="sir.jpg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="media p-2">
+                                        <div class="media-body ">
+                                            <h6 class="">Dropper</h6>
+                                            <p class="mt-n2"> Batches</p>
+                                            <h5 class="mt-5 " onclick="alert('Please wwwwwwwwait')"> Explore</h5>
+                                        </div>
+                                        <img src="sir.jpg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row course_detail_row_warp mt-4">
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="media p-2">
+                                        <div class="media-body ">
+                                            <h6 class="">Class 8th</h6>
+                                            <p class="mt-n2"> Batches</p>
+                                            <h5 class="mt-5 " onclick="alert('Please wwwwwwwwait')"> Explore</h5>
+                                        </div>
+                                        <img src="sir.jpg" class="img-fluid ">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="media p-2">
+                                        <div class="media-body ">
+                                            <h6 class="">Class 9th</h6>
+                                            <p class="mt-n2"> Batches</p>
+                                            <h5 class="mt-5 " onclick="alert('Please wwwwwwwwait')"> Explore</h5>
+                                        </div>
+                                        <img src="sir.jpg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="media p-2">
+                                        <div class="media-body ">
+                                            <h6 class="">Class 10th</h6>
+                                            <p class="mt-n2"> Batches</p>
+                                            <h5 class="mt-5 " onclick="alert('Please wwwwwwwwait')"> Explore</h5>
+                                        </div>
+                                        <img src="sir.jpg" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container tab-pane fade " id="NEET">
+                        <h1>Hellow yahoo baba </h1>
+                    </div>
+                    <div class="container tab-pane fade " id="STATE">
+                        <h1>STATE </h1>
+                    </div>
+                    <div class="container tab-pane fade " id="IAS">
+                        <h1>IAS </h1>
+                    </div>
+                    <div class="container tab-pane fade " id="UPSC">
+                        <h1>UPSC </h1>
+                    </div>
+                    <div class="container tab-pane fade " id="GATE">
+                        <h1>GATE </h1>
+                    </div>
+                    <div class="container tab-pane fade " id="MBA">
+                        <h1>MBA </h1>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="third_body_bg_warp">
+        <div class="container mt-5 third_body_warp pt-5">
+            <h1 class=""> Why <span class="span_color_warp"> Sameer Sir </span></h1>
+            <p class=""> Your One Stop Destination For Success</p>
+            <div class="row p-4 bg-white mt-5">
+                <div class="col-lg-3">
+                    <img src="https://www.pw.live/version14/assets/img/group-20356.svg" class="img-fluid mt-n3" />
+                </div>
+                <div class="col-lg-9 mt-2">
+                    <h3 class="text-primary">Live / Scheduled Lectures</h3>
+                    <h6 class=""> Learning is an important step for achieving dreams in a student's journey. We encourage the student to explore the concept in depth instead of memorizing. The live lectures help us in learning the needs of the students and motivates the students to be creative and be passionate learners.</h6>
+                </div>
+            </div>
+            <img src="https://www.pw.live/version14/assets/img/group-20364.svg" class="img-fluid mx-auto d-block">
+            
+            <div class="row p-4 bg-white ">
+               
+                <div class="col-lg-9 mt-5">
+                    <h3 class="text-primary">Live Doubt Solving Sessions</h3>
+                    <h6 class=""> At Physics Wallah we always encourage students to ask questions. We have created an atmosphere where students don’t hesitate to ask their doubts. We firmly believe in More you ask, the more you learn.</h6>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://www.pw.live/version14/assets/img/group-20360.svg" class="img-fluid mt-n3" />
+                </div>
+            </div>
+            <img src="https://www.pw.live/version14/assets/img/group-20365.svg" class="img-fluid mx-auto d-block">
+           
+            <div class="row p-4 bg-white ">
+                <div class="col-lg-3">
+                    <img src="https://www.pw.live/version14/assets/img/group-20358.svg" class="img-fluid mt-n3" />
+                </div>
+                <div class="col-lg-9 mt-5">
+                    <h3 class="text-primary">Structured And Targeted Study Material</h3>
+                    <h6 class=""> Explore the art of concept with our structured material with intelligent question tackling and problem solving skills.</h6>
+                </div>
+            </div>
+            <img src="https://www.pw.live/version14/assets/img/group-20364.svg" class="img-fluid mx-auto d-block">
+            
+            <div class="row p-4 bg-white ">
+               
+                <div class="col-lg-9 mt-3">
+                    <h3 class="text-primary">Tests On Regular Basis For Progress Tracking</h3>
+                    <h6 class=""> It is a set of test papers designed to make the student comfortable with all possible varieties of questions along with the various ways in which the same question can be put in order to make the student sweat in the exam hall.The problems involve multi-dimensional thinking at a time.</h6>
+                </div>
+                <div class="col-lg-3">
+                    <img src="https://www.pw.live/version14/assets/img/group-20356.svg" class="img-fluid mt-n3" />
+                </div>
+            </div>
+            <!-- <img src="https://www.pw.live/version14/assets/img/group-20364.svg" class="img-fluid mx-auto d-block"> -->
+        </div>
+        
+    
+        <img src="https://www.pw.live/version14/assets/img/group-20365.svg" class="img-fluid mx-auto d-block">
+    <section class="mt-3" title="content in detail pages">
+        <div class="container body_content_detail_warp border-top border-bottom">
+            <div class="row p-2 mt-3">
+                <div class="col-lg-7">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAABYlAAAWJQFJUiTwAAAEQklEQVQ4y22VXUwcVRTH7yxdQNdYY1/UkLaJkY/szGxrfNCWVJblw0IRU91SllgWSlHjR0LiR5qYoKkxJtryoZVEsH40TeqDm7TBpl/Aws4sC5g+NPHBB2mCD01JhELZvbPMcv7m3pktNfHhnzkzd87vnnPPvecy1TJYXho3Fdf2qZYRVS0jplrGgmYZtpCw3W9izKdZJlO5qWjC11Ue5oC4KeyIxo15jRvQrQR0noDKjf/TvGqZEeEjwJolwGYeaLowc1CAAnwKqmXapXzGrsjO0i57mgJ2igLr06Rnk7ZmmXYerEmf+1DmpOnCRDR+y7R3Wjdyfm5SU/ZXCi6fpycWRmn73xdo5+3fqOzuGGmWKSbI5cESKoMyFCc6y4wIWLmVsgN8ij7hnyGVbqKMpdPUYhU8Y6fArvdBGe9DQXyQHp4dpqduxUSEMmIXGnFS5qZP54n5ciuFSn45Z2ReAdJPUzZdjpW0DspWoOXmu2DXh+CdENB+CWdXT5JvbgQV9+I5LZuUa6pZpo9p3Ijq3ECpNWtfyEQJme20lNmN5cwuLKUD2OClGF8MwTMxAGV8AJ6JfmkXxAfBrnxFj938+X6UKjeiAhjzW0k8y+P25dVmSi5X0eRyDSaXqjG61IBvV99E+50vUBAfkNEJoDIx4Eww1kdFySHyZxKiUAIYE8AFfT2JZ5bi1HOjnS6tHcAPi2GcWOpBdGUQh/hZlP05DHatDwUTDlQZ64dHrKn5DQp/+Zz8/4yTti7TXhCVsQWw7O4klfS20DtznXiDvkN4/RzC6Z9w+N4IHp8ekOuWT9eT+BqemSGw7z+Gt7ON/MsTeaAtgXJR1yapuKeVlI5mlP7Yg7o/vkTr6jBCd0agCIBQfBDKtVNQzn0K5aNusH0heMOvkn91ktzCSOCCePGvxumRD9uo8Eg9PJF6FHY0YtvxFmw93g72dhTKe1GwY21gB5vBgrVge6vBKqvhbT1E/pV4HihTjrlA2/d+hAqjDVR8rAmFnY3wdjRAOVAL9nwQbG/QgewLOcCaerAXa8jb8poA2i4wJoBRUXJ9Y8bedvoDKggHqai7GUVdTSjubsKWcANYsM4BhIQcW6nbD7Z7D23t7SGdZmw1k982lulTM8a8Zk+jYvFqbuuJbmw5HCLv6/Uo6mpEwcH9m8DqOrCqWifa5yrpobc6UHH7Sk74Sobc2M6hjogZNDtlq+kpKrnUj0d7j1LR0ZeJhWrAXqgC21PlpFv7EhV3HaEnz5+EujZFei4lo9s8em7bEQfcHbAD+D2nWQaV3rpIO+JnqGT0tNSOyTNU+tdFEmdY/pM1c66PbA6aaA4aNxzloeIIZRISLGYPYE44u5ojfSPltK90Av/pNFIGywMV8VSdWSKyeUqwAen4oDIPNlgj4rYt2brEczNCByg/atzwudWPib0lNqwqrgDuXgHOmM/xc68N7lwj/wJzAL72ZoPqUQAAAABJRU5ErkJggg==" class="mx-auto d-block img-fluid">
+                    <!-- https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSugfZOQNjOAHCXgFuWa2wU-OCUcsnROodh1dmAaqiPA1xB6KoB -->
+                    <h4 class=""> Fellowship Program in QA Automation (SDET)</h4>
+                    <p>Master QA Automation skills by working on projects like SDETs at top product-based companies and get guaranteed placement.</p>
+                    <div class="under_sec_row_content_warp">
+                        <div class="row p-3 ">
+                            <div class="col-md-6">
+                                <div class="media">
+                                    <i class="fa-solid fa-check mr-2"></i>
+                                    <div class="media-body">
+                                        <span class=""> Complete Web Automation using using tools like Selenium, Webd</span>
+                                    </div>
+                                </div>
+                                <div class="media mt-3">
+                                    <i class="fa-solid fa-check mr-2"></i>
+                                    <div class="media-body">
+                                        <span class=""> APIs & Performance Testing using tools like Postman, Docker</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="media">
+                                    <i class="fa-solid fa-check mr-2"></i>
+                                    <div class="media-body">
+                                        <span class="">Advance System Design, DS & Algo Curriculum</span>
+                                    </div>
+                                </div>
+                                <div class="media mt-3">
+                                    <i class="fa-solid fa-check mr-2"></i>
+                                    <div class="media-body">
+                                        <span class="">DevOps & SDLC best practices - Using tools like CI/CD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-3 under_sec_row_content_warp_two p-2 mb-4">
+                        <div class="row mt-2 pr-2 pl-2">
+                            <div class="col-sm-4 col_fotter_con_warp  text-center" >
+                                <p class="pt-2 pl-2 pr-2 pb-4">3+ large scale professional test automation projects</p>
+                            </div>
+                            <div class="col-sm-4 col_fotter_con_warp text-center" >
+                                <p class="pt-2 pb-5">45+ mini-learning modules</p>
+                            </div>
+                            <div class="col-sm-4 col_fotter_con_warp  text-center" >
+                                <p class="pt-2 pl-2 pr-2 pb-4">Learn Java, Selenium, TestNG, Cucumber, API, Perf </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-4 second_side_content_warp">
+                    <div class="media p-2 pl-3 ">
+                        <i class="fa-solid fa-lock-open mr-4"></i>
+                        <div class="media-body">
+                            <span class=""> Trial Session</span>
+                            <h6 class=""> Free</h6>
+                        </div>
+                    </div>
+                    <div class="media p-2 pl-3 mt-3">
+                        <i class="fa-solid fa-calendar-days mr-4"></i>
+                        <div class="media-body">
+                            <span class=""> Duration</span>
+                            <h6 class=""> 9 months</h6>
+                        </div>
+                    </div>
+                    <div class="media p-2 pl-3 mt-3">
+                        <i class="fa-solid fa-graduation-cap mr-4"></i>
+                        <div class="media-body">
+                            <span class=""> Scholarships</span>
+                            <h6 class=""> Assured Scholarships</h6>
+                        </div>
+                    </div>
+                    <div class="media p-2 pl-3 mt-3">
+                        <i class="fa-solid fa-folder-open mr-4"></i>
+                        <div class="media-body">
+                            <span class=""> Career Services</span>
+                            <h6 class=""> Placement Guarantee</h6>
+                        </div>
+                    </div>
+                    <!-- <button type="button" class="  button_1_warp" data-toggle="modal" data-target="#mySign"> Sign In  <i class="fa-solid fa-chevron-right ml-1"></i></button><br> -->
+                    <!-- <button type="button" class="  button_2_warp ml-n1" data-toggle="modal" data-target="#myLogin"> Book Your Free Trail, Now</button> -->
+                    <div class="button_content_warp">
+                        <button type="button" class="mt-4 first" data-toggle="modal" data-target="#myEnquiry">Learn More  <i class="fa-solid fa-chevron-right ml-1"></i></button><br>
+                        <button type="button" class="mt-3 second bg-danger text-white" data-toggle="modal" data-target="#myLogin" >Apply Now  <i class="fa-solid fa-chevron-right ml-1 text-white"></i></button>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <img src="https://www.pw.live/version14/assets/img/group-20364.svg" class="img-fluid mx-auto d-block">
+    <!-- media  -->
+    <!-- <div class="sec_body_warp mt-5">
+        <h6>QUALITY LEARNING EXPERIENCE</h6>
+        <h1>Why Nexus?</h1>
+        
+        <div class="row mt-5">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="media media_warp">
+                    <h1 class="" >01</h1>
+                    <div class="media-body media_body_warp">
+                        <h4>Industry Specialists</h4>
+                        <p>Get training from 100+ experts from AI, IT, and Multimedia domains.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4"></div>
+            <div class="col-md-6">
+                <div class="media media_warp">
+                    
+                    <div class="media-body media_body_warp">
+                        <h4>90% Practical Training</h4>
+                        <p>Build a portfolio while learning computer science through live projects.</p>
+                    </div>
+                    <h1 class="" style="background-color:rgb(255, 246, 234);">02</h1>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="media media_warp">
+                    <h1 class="">03</h1>
+                    <div class="media-body media_body_warp">
+                        <h4>100% Guaranteed Placement</h4>
+                        <p>Secure your post-course placement in tech companies with great</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+    <br><br>
+    <div class="thr_body_warp p-5">
+        <div class="p-lg-5">
+            <h4>PERSONALIZED BATCHES</h4>
+            <h1>Empowering generations to become geniuse</h1>
+        </div>
+       <div class="mt-lg-5 mb-lg-5"></div>
+    </div>
+    <div class="row pl-lg-4 pr-lg-4 tri_row_warp">
+        <div class="col-md-9">
+           <div class="row">
+                <div class="col-lg-4 mb-2">
+                    <div class="card tri_card_warp">
+                        <div class="card-body tri_card_body_warp">
+                            <i class="fa-solid fa-robot ml-3"></i>
+                            <h3>Regulars Batches</h3>
+                            <p>Best for students willing to be skilled in computer science with 4 days a week sessions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                    <div class="card tri_card_warp">
+                        <div class="card-body tri_card_body_warp">
+                            <i class="fa-solid fa-robot ml-3"></i>
+                            <h3> Alternative Batches</h3>
+                            <p>Best for people willing to learn multiple skills at a time. Join 3 days a week sessions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                    <div class="card tri_card_warp">
+                        <div class="card-body tri_card_body_warp">
+                            <i class="fa-solid fa-robot ml-3"></i>
+                            <h3> Weekend Batches</h3>
+                            <p>Best for entrepreneurs and professionals willing to add on a skill. Join twice a week sessions.</p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <div class="four_body_warp p-lg-5 mt-4">
+        <h4 class="pl-3 pt-3">OUR SCHOLARS</h4>
+        <h1 class="pl-3">What our students say</h1>
+        <div class="row p-lg-5 ml-lg-4 mr-lg-4">
+            <div class="col-lg-6 mb-3">
+                <div class="card pt-lg-5 pr-lg-5 pl-lg-5">
+                    <iframe height="300px"  src="https://www.youtube.com/embed/yWjv1Wvz0C4?si=sMwipy07_XeUZpG2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="card-body text-center">
+                        <h4 class="">Placed at Cognizant</h4>
+                        <p class="">Meher is now a software engineer in Cognizant</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card pt-lg-5 pr-lg-5 pl-lg-5">
+                    <iframe height="300px"  src="https://www.youtube.com/embed/2fp4K21Hsy8?si=Zd6HZX2Y2WAvhXWL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="card-body text-center">
+                        // comment area // <iframe width="560" height="315" src="https://www.youtube.com/embed/2fp4K21Hsy8?si=Zd6HZX2Y2WAvhXWL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                        <h4 class="">Placed at Genpact  </h4>
+                        <p class="">Akhila is now an E-Accounts Specialist at Genpact</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+   
+   <div class="container fst_footer_warp_sir ">
+        <div class="row p-4">
+            <div class="col-lg-6 mb-3">
+                <h1 class=""> Get Access To Our <span class="" style="color:#eb427e;">Batches Now</span> </h1><br>
+                <h6 class="mt-lg-5 pt-lg-5"> Get instant access to high-quality material</h6>
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text text-primary font-weight-bold">91+</span>
+                            </div>
+                            <input type="text" class="form-control p-4" name="num" id="num" placeholder="Enter Mobile Number" required />
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="font-weight-bold fa-solid fa-angle-right font_number_warp_edit text-danger" onclick="alert('Pls Wait')"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="app.jpg" class="img-fluid mx-auto d-block">
+            </div>
+        </div>
+   </div>
+</div>
+     <!-- footer start  -->
+    <footer class="" style="background:no-repeat padding-box #120b1a ;">
+        <div class="container-fluid">
+            <div class="row footer_row_warp p-lg-5">
+                <div class="col-md-4 mb-2 ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3558.451723220848!2d80.94100727543871!3d26.889155376661154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1695685718341!5m2!1sen!2sin"  style="border:0;" width="100%" height="200px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-4 mb-2 mt-4 p-3">
+                    <div class="media media_warp">
+                        <!-- <i class="fa fa-map-marker text-dark" aria-hidden="true"></i> -->
+                        <i class="fa-solid fa-location-dot mr-2 pr-2 mt-3 text-white"></i>
+                        <div class="media-body media_body_warp">
+                            <h5 class="text-white"> Spoken English Classes Indiranagar, Lane-50 Dist-Ahmednagar Maharashtra - 422605</h5>
+                        </div>
+                    </div>
+                    <div class="media media_warp">
+                        <i class="fa fa-phone mr-1 mt-3 pr-2 text-white" aria-hidden="true"></i>
+                        <div class="media-body media_body_warp">
+                            <h5 class="text-white">+91 8299259471</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2 mt-lg-5   last_col_footer_warp">
+                    <h6 class="font-weight-bold text-white text-left"> Follow Us :</h6>
+                    <div class="row mt-3 mb-2">
+                        <div class="col-md-6 mb-3">
+                            <img src="https://www.pw.live/version14/assets/img/home/google-play-1.svg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6 ml-lg-n4">
+                            <img src="https://www.pw.live/version14/assets/img/home/app-store-1.svg" class="img-fluid">
+                        </div>
+                    </div>
+                    
+                   <a href="#" class=""><i class="fa-brands fa-facebook-f"></i></a>
+                   <a href="#" class=""><i class="fa-brands fa-twitter"></i></a>
+                   <a href="#" class=""><i class="fa-brands fa-instagram"></i></a>
+                   <a href="#" class=""><i class="fa-brands fa-whatsapp"></i></a>
+                   <!-- <a href="#" class=""><i class="fa-brands fa-youtube"></i></a> -->
+                </div>
+            </div>
+            <div class="row p-3 last_footer_row_warp " style="background:no-repeat padding-box #120b1a ;">
+                <div class="col-md-4 mb-3 mt-3 text-white">
+                    <h6>2022 All Rights Reserved</h6>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-5 mt-md-3">
+                            <h5 class="text-white">Powered by</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://diy-assets.classplus.co/_next/image?url=https://storage.googleapis.com/coursewebview/logo.png&w=1920&q=75" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+<script>
+    function getValue(input){
+		let num = /[^0-9]/gi;
+		input.value=input.value.replace(num, "");
+	}
+</script>
+
+<!-- The Modal -->
+<div class="modal fade" id="myNewModal" data-backdrop="static">
+   
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+       <div class="modal-content" >
+             <!-- Modal body -->
+            <div class="modal-body " style="margin: -10px;">
+                <div class="row" >
+                    <div class="col-lg-6" >
+                        <div class="fst_modal_warp p-4">
+                            <h3 class="">The future of education</h3>
+                            <p class="">With an all in one platform for the teaching world</p>
+                            <img class="img-fluid mx-auto d-block" src="https://web.classplusapp.com/static/media/loginCover.c813756b.svg">
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 p-4 sec_modal_warp">
+                        
+                        <h3 class="">Login to your account</h3>
+                        <span>Please enter the org code and your mobile number to continue</span><br>
+                        <button type="button" class="close" data-dismiss="modal" >&times;</button>
+                        <form class="mt-5 was-validated" action="" method="">
+                            <label for="code" class="">Org Code</label>
+                            <input type="text" class="form-control" value="" name="code" id="code" placeholder="Enter org code" required>
+                            <label for="num" class="mt-3">Your Mobile Number</label>
+                            <input type="text" class="form-control" onkeyup="getValue(this)" value="" id="num" name="num" placeholder="Enter your mobile number" required>
+                            <button type="button" class="btn btn-outline-primary font-weight-bold mt-5" required>Proceed Securely</button>
+                            <p class="mt-3">By continuing, you agree to the <a href="#" class="">terms and conditions</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+
+
+<div class="text-right fixed_bottom_warp fixed-bottom">
+    <i class="fa-solid fa-message " data-toggle="modal" data-target="#mypopup"></i>
+</div>
+
+<span class="fixed-bottom sec_fixed_icon_warp   ">
+    
+        <img src="https://www.pw.live/version14/assets/img/youtube.svg" class="img-fluid">
+    
+    
+        <img src="https://www.pw.live/version14/assets/img/insta.svg" class="img-fluid">
+    
+    
+        <img src="https://www.pw.live/version14/assets/img/telegram.svg" class="img-fluid">
+    
+    
+        <img src="https://www.pw.live/version14/assets/img/fb.svg" class="img-fluid">
+    
+    
+        <img src="https://www.pw.live/version14/assets/img/twitter.svg" class="img-fluid">
+   
+    <div class="text-right fixed_bottom_warp fixed-bottom">
+        <i class="fa-solid fa-message " data-toggle="modal" data-target="#mypopup"></i>
+    </div>
+</span>
+
+<!-- modal works  -->
+<div class="modal fade" id="mypopup" data-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <!-- <div class="modal-header">
+                <h4 class="font-weight-bold">Enquiry</h4>
+                <span class="close" data-dismiss="modal" style="cursor: pointer;">&times;</span>
+            </div> -->
+            <div class="modal-body pl-4 pr-4 pt-4 modal_message_media_warp">
+                <h3 class="font-weight-bold text-dark">Need Additional Help?</h3>
+                <p class="font-weight-bold text-dark" style="opacity: 0.6;">With Hostinger's customer support team you will get all the help you need in seconds, 24/7. They'll do everything they can to answer your questions!</p>
+                
+            </div>
+            <div class="modal-footer pl-4 pr-4 modal_popup_footer_warp">
+                <h6 type="button" class="mr-3 first" data-dismiss="modal">Not now</h6>
+                <button type="button" class="second">GO Premium</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
